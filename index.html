@@ -3,12 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=jacinto.design">
+    <title>Interactive History</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="storyBox">
+        <p id="shownStory"></p>
+    </div>
+    <div class="optionBox">
+        <h1 id="currentStoryTitle"></h1>
+        <!-- Option 1 -->
+        <div class="options">
+            <button id="option1Btn"><h1>Option 1:</h1></button>
+            <p id="option1Txt"></p>
+        </div>
+        <!-- Option 2 -->
+        <div class="options">
+            <button id="option2Btn"><h1>Option 2:</h1></button>
+            <p id="option2Txt"></p>
+        </div>
+        <!-- Option 3 -->
+        <div class="options">
+            <button id="option3Btn"><h1>Option 3:</h1></button>
+            <p id="option3Txt"></p>
+        </div>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
