@@ -1,0 +1,58 @@
+{
+  "story": "The year is 1944, and Europe is in the midst of World War II. You are an Allied spy, deep undercover as an officer in the German military. Your mission is critical: steal vital intelligence about a planned German counteroffensive in Normandy and deliver it to the Allies. The fate of the operation rests on your ability to remain undetected and retrieve the information without raising suspicion. After weeks of careful observation, you've identified an opportunity to access the intelligence stored in a guarded file cabinet inside the commander's office. The night is quiet, but tension is high as you prepare to act. Every move counts — will you succeed in outwitting the enemy?",
+  "playerQuestion": "What method will you use to access the file cabinet?",
+  "option1": {
+    "associatetQuestion": "On your coath you have a set of lockpiking tools, you use them.",
+    "newStory": "You sneak into the office where the documents are located, you start to lockpick. As your almost done you hear footsteps nearby",
+    "newPlayerQuestion": "You start getting woried, what do you do?",
+    "option1": {
+      "associatetQuestion": "You continue to lockpick.",
+      "newStory": "As you continue you see a shadow outside the office door. And then the door gets opend and a high ranking officer looks down at you. You then get arrested and executed.",
+      "newPlayerQuestion": "Mission failed, you died"
+    },
+    "option2": {
+      "associatetQuestion": "You stop lockpicking and hide in the closet.",
+      "newStory": "A officer walks into the room and sits down on the desk. Six hours later he gets up and leaves. And when he leaves you open the closet door slowly, and you see a guard in the corridoor staring straight in your direction.",
+      "newPlayerQuestion": "What are you gonna do now?",
+      "option1": {
+        "associatetQuestion": "Continue to open the closet door.",
+        "newStory": "When you open the door the guard calls you out and you get cauth. You then get life in prison.",
+        "newPlayerQuestion": "Mission failed."
+      },
+      "option2": {
+        "associatetQuestion": "Close the door and hope he didn't see you.",
+        "newStory": "When you close the door you hear a guy say 'Ich glaube, ich habe gerade einen Mann in einem Schrank in Ihrem Büro gesehen.' You the hear several footsteps walk into the room. The closet gets opend and 5 guards are aming their gunst at you, and the officer is also there. You get arrested, 29.89 years in prison and then executed.",
+        "newPlayerQuestion": "Mission failed, you died"
+      },
+      "option3": {
+        "associatetQuestion": "You don't touch the door to hope he don't notice any movement.",
+        "newStory": "You continue too look out of the closet and the guard walks into the room opens the closet and shoot one bullet in your leg. You get arrested and serve 50 years in prison and gets executed",
+        "newPlayerQuestion": "Mission failed, you died"
+      }
+    },
+    "option3": {
+      "associatetQuestion": "You hide under the desk.",
+      "newStory": "",
+      "newPlayerQuestion": "",
+      "option1": {},
+      "option2": {},
+      "option3": {}
+    }
+  },
+  "option2": {
+    "associatetQuestion": "Try to forge a request to retive the file from a high ranking officer that has access to the files.",
+    "newStory": "You find the officer that has access to the files, you do a little bit of small-talk. Then the oppritunity comes up for you to ask for a quest.",
+    "newPlayerQuestion": "Now that your with the officer, what do you say?",
+    "option1": {},
+    "option2": {},
+    "option3": {}
+  },
+  "option3": {
+    "associatetQuestion": "You know of a stuborn officer that also has access to the files, you try to bribe him.",
+    "newStory": "You find the officer in a place where nobody else can see or hear you.",
+    "newPlayerQuestion": "How much money do you give him?",
+    "option1": {},
+    "option2": {},
+    "option3": {}
+  }
+}
