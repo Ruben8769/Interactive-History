@@ -21,13 +21,12 @@ body{
     gap: 40px;
 }
 
+button:hover{cursor: pointer;background-color: var(--buttonHoverColor);}
 button{
     background-color: var(--buttonColor);
     border: 2px solid;
     border-radius: 5px;
 }
-
-button:hover{cursor: pointer;background-color: var(--buttonHoverColor);}
 
 /* Text chainging */
 h1, h2{font-family: Roboto Mono, 'Seoge Ui';font-weight: 600;}
@@ -54,6 +53,7 @@ h1{font-size: 20px;}
     gap: 20px;
 }
 
+.options:hover{cursor: pointer;}
 .options{
     display: flex;
     gap: 10px;
