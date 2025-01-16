@@ -32,27 +32,63 @@
     },
     "option3": {
       "associatetQuestion": "You hide under the desk.",
-      "newStory": "",
-      "newPlayerQuestion": "",
-      "option1": {},
-      "option2": {},
-      "option3": {}
+      "newStory": "Just as you hide under the desk a officer walks into the room. As he sits down on his chair, he sees you.",
+      "newPlayerQuestion": "What are you gonna do now?",
+      "option1": {
+        "associatetQuestion": "Stab him.",
+        "newStory": "As you stab him, he calls for guards you get shot and killed on the spot.",
+        "newPlayerQuestion": "Mission failed, you died"
+      },
+      "option2": {
+        "associatetQuestion": "Hit him",
+        "newStory": "As you hit him, he calls for guards you get shot and killed on the spot.",
+        "newPlayerQuestion": "Mission failed, you died"
+      },
+      "option3": {
+        "associatetQuestion": "Shot him",
+        "newStory": "As you shot him, he calls for guards you get shot and killed on the spot.",
+        "newPlayerQuestion": "Mission failed, you died"
+      }
     }
   },
   "option2": {
-    "associatetQuestion": "Try to forge a request to retive the file from a high ranking officer that has access to the files.",
-    "newStory": "You find the officer that has access to the files, you do a little bit of small-talk. Then the oppritunity comes up for you to ask for a quest.",
-    "newPlayerQuestion": "Now that your with the officer, what do you say?",
-    "option1": {},
-    "option2": {},
-    "option3": {}
+    "associatetQuestion": "You yank the files from the officers when the files are outside the cabinet",
+    "newStory": "When you take the file, an officer yells 'Bewachen!'. You try to run away but you get shot and arrested, 40 years in prison, then shot.",
+    "newPlayerQuestion": "Mission failed, you died"
   },
   "option3": {
-    "associatetQuestion": "You know of a stuborn officer that also has access to the files, you try to bribe him.",
+    "associatetQuestion": "You know of a stuborn officer that has access to the files, you try to bribe him.",
     "newStory": "You find the officer in a place where nobody else can see or hear you.",
     "newPlayerQuestion": "How much money do you give him?",
-    "option1": {},
-    "option2": {},
-    "option3": {}
+    "option1": {
+      "associatetQuestion": "10.58$",
+      "newStory": "The officer laughs at your offer. He then leaves you. As you sit in your office a few houers later, a group of guards and a officer come into your office. You get arrestet and life in prison",
+      "newPlayerQuestion": "Mission failed."
+    },
+    "option2": {
+      "associatetQuestion": "2'300.98$",
+      "newStory": "The officer seems a little skeptical, but he accepts the offer and hands you the key.",
+      "newPlayerQuestion": "Now that you have the key, what are you gonna do?",
+      "option1":{
+        "associatetQuestion": "Walk to the office and unlock the file cabinet.",
+        "newStory": "It turns out there is a guard guarding the door. And you're not allowed in there.",
+        "newPlayerQuestion": "Mission failed."
+      },
+      "option2":{
+        "associatetQuestion": "Bribe somebody else to get the files",
+        "newStory": "The officer that you bribed told the high ranking officers about that. So you got arrested.",
+        "newPlayerQuestion": "Mission failed."
+      },
+      "option3":{
+        "associatetQuestion": "Wait to retrive the files because it's getting late",
+        "newStory": "As your about to fall aslep all of a suden guards burst into your room and arrests you.",
+        "newPlayerQuestion": "Mission failed."
+      }
+    },
+    "option3": {
+      "associatetQuestion": "10'000.09$",
+      "newStory": "The officer don't belive your offer. He then leaves you. As you sit in your office a few houers later, a group of guards and a officer come into your office. You get arrestet and life in prison",
+      "newPlayerQuestion": "Mission failed."
+    }
   }
 }
